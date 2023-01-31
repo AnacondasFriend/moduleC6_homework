@@ -1,0 +1,13 @@
+.zhmyak > div{
+  position: relative;
+  padding-right: 20px;
+}
+
+.zhmyak  svg{ 
+  position:absolute;
+  right:0;
+}
+
+.vis{
+  visibility: collapse;
+}
