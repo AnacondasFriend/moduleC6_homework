@@ -1,0 +1,60 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body > div{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px
+            dashed
+            rgb(49, 111, 204);
+    padding: 10px;
+}
+
+.textToSend{
+    display: flex;
+    justify-content: space-around;
+    border: 3px
+            ridge
+            rgb(0, 195, 255);
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+input{
+    width: 50%;
+    padding: 5px;
+}
+
+button{
+    width:20%
+}
+
+.messageWindow{
+    height: 500px;
+    border: 3px
+    ridge
+    rgb(0, 195, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.messageHuman{
+    border: inherit;
+    margin: 5px;
+    padding: 5px;
+    width:50%;
+    border-radius: 5px;
+    align-self: flex-end; 
+    flex-basis:content;
+}
+
+.messageEcho{
+    border: inherit;
+    margin: 5px;
+    padding: 5px;
+    width:50%;
+    border-radius: 5px;
+    text-align: left;
+}
